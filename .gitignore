@@ -1,3 +1,4 @@
 .vscode
+*.vsix
 out
 node_modules

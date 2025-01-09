@@ -37,7 +37,7 @@ function needsConfiguring(): boolean {
 		return true;
 	}
 	const v = json["Lua.workspace.library"];
-	return !v || !(v as Array<string>).includes(extPath + "/lua");
+	return !v || !(v as Array<string>).includes(extPath + "/assets/lua");
 	/*const config = vscode.workspace.getConfiguration('settings', activeWSF.uri);
 	const v = config.inspect("Lua.workspace.library");
 	return !v || !v.workspaceValue || !(v.workspaceValue as Array<string>).includes(extPath + "/lua");*/

@@ -1,7 +1,7 @@
 {
   "name": "vscode-stormground",
   "repository": "https://github.com/MerianBerry/vscode-stormground",
-  "publisher": "Merian",
+  "publisher": "merianberry",
   "displayName": "VSCode Stormground",
   "description": "VSCode extension for Stormground",
   "version": "1.0.0",
