@@ -1,12 +1,14 @@
 {
   "name": "vscode-stormground",
+  "repository": "https://github.com/MerianBerry/vscode-stormground",
+  "publisher": "Merian",
   "displayName": "VSCode Stormground",
   "description": "VSCode extension for Stormground",
-  "version": "0.0.1",
-  "publisher": "Merian",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.62.0"
   },
+  "icon": "assets/icon.png",
   "keywords": ["multi-root ready"],
   "categories": [
     "Other",
@@ -15,10 +17,14 @@
   "activationEvents": [
     "onStartupFinished"
   ],
+  "extensionPack": [
+		"sumneko.lua",
+		"actboy168.lua-debug"
+	],
   "main": "./out/extension.js",
   "contributes": {
     "keybindings": {
-      "key": "F5",
+      "key": "F6",
       "command": "vscode-stormground.runProject",
       "when": "sg.showCmds == true"
     },
