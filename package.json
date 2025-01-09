@@ -4,7 +4,7 @@
   "publisher": "merianberry",
   "displayName": "VSCode Stormground",
   "description": "VSCode extension for Stormground",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.62.0"
   },
