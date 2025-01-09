@@ -4,12 +4,14 @@
   "publisher": "merianberry",
   "displayName": "VSCode Stormground",
   "description": "VSCode extension for Stormground",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.62.0"
   },
   "icon": "assets/icon.png",
-  "keywords": ["multi-root ready"],
+  "keywords": [
+    "multi-root ready"
+  ],
   "categories": [
     "Other",
     "Visualization"
@@ -18,9 +20,9 @@
     "onStartupFinished"
   ],
   "extensionPack": [
-		"sumneko.lua",
-		"actboy168.lua-debug"
-	],
+    "sumneko.lua",
+    "actboy168.lua-debug"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "keybindings": {
