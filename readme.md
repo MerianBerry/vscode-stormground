@@ -13,3 +13,8 @@ You can manually configure a Stormground workspace with the `Stormground: Config
 If your project is configured, a button in the status bar will appear allowing you to run the project.
 
 You can also run the project via the `Stormground: Run Project` command.
+
+
+## Manual
+
+Stormground's [git repository on github](https://github.com/MerianBerry/stormground) has the full manual for the lua api
